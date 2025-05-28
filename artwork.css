@@ -7,21 +7,27 @@ body {
     line-height: 1.6;
 }
 
+
+header {
+    background-color: #222;
+    color: #f1d381;
+    padding: 20px;
+    text-align: center;
+}
+
 nav {
-  background-color: black;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 nav a {
-  color: #f1d381;
-  text-decoration: none;
-  margin: 0 20px;
-  font-size: 1.2em;
-  font-family: Arial, sans-serif;
+    color: #f1d381;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 h1 {
