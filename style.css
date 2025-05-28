@@ -37,6 +37,7 @@ main {
 
 h1, h2 {
     color: #222;
+    font-size: xx-large;
 }
 
 .intro, .about, .invite {
