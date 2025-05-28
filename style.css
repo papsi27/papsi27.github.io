@@ -37,7 +37,8 @@ main {
 
 h1, h2 {
     color: #222;
-    font-size: xx-large;
+    font-size: 100px;
+    text-align: center;
 }
 
 .intro, .about, .invite {
