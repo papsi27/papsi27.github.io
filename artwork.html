@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Artwork</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <title>Artwork Showcase</title>
+    <link rel="stylesheet" href="artwork.css" />
 </head>
 <body>
     <header>
-        <h1>My Artwork</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="artwork.html">Artwork</a>
         </nav>
+        <h1>My Artwork Showcase</h1>
     </header>
 
     <main>
-        <h2>Digital Illustration Gallery</h2>
-        <div class="gallery">
-            <img src="art1.jpg" alt="Artwork 1">
-            <img src="art2.jpg" alt="Artwork 2">
-            <img src="art3.jpg" alt="Artwork 3">
-        </div>
+        <section class="artwork-item">
+            <img src="images/artwork1.jpg" alt="Artwork 1" />
+            <h2>Artwork Title 1</h2>
+            <p>This is a justified description of artwork number one. It explains the inspiration and medium used.</p>
+        </section>
 
-        <h2>Typography Designs</h2>
-        <div class="gallery">
-            <img src="type1.jpg" alt="Typography 1">
-            <img src="type2.jpg" alt="Typography 2">
-        </div>
+        <section class="artwork-item">
+            <video controls>
+                <source src="videos/artwork2.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            <h2>Artwork Title 2 (Video)</h2>
+            <p>This video artwork explores motion and color in a dynamic way. The description is justified for readability.</p>
+        </section>
+
+        <section class="artwork-item">
+            <img src="images/artwork3.jpg" alt="Artwork 3" />
+            <h2>Artwork Title 3</h2>
+            <p>A detailed description of the third artwork. The text is justified and provides context and background.</p>
+        </section>
+
+        <section class="artwork-item">
+            <video controls>
+                <source src="videos/artwork4.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            <h2>Artwork Title 4 (Video)</h2>
+            <p>This final piece is a video artwork focusing on texture and sound, described in a justified paragraph below.</p>
+        </section>
     </main>
-
-    <footer>
-        <p>&copy; 2025 My University Project</p>
-    </footer>
 </body>
 </html>
