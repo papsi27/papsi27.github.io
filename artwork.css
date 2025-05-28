@@ -8,8 +8,10 @@ body {
 }
 
 header {
+    background-color: #222;
+    color: #f1d381;
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
 }
 
 nav a {
