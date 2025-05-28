@@ -1,14 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f1e6; /* light beige */
+    color: #222; /* black */
     margin: 0;
     padding: 0;
-    background: #fafafa;
-    color: #333;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #007acc;
-    color: white;
+    background-color: #222;
+    color: #f5f1e6;
     padding: 20px;
     text-align: center;
 }
@@ -18,31 +19,37 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #f5f1e6;
     margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 main {
-    padding: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
 }
 
-.gallery {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+h1, h2 {
+    color: #222;
 }
 
-.gallery img {
-    width: 200px;
-    height: auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+.intro, .about, .invite {
+    margin-bottom: 40px;
+}
+
+a {
+    color: #007acc;
 }
 
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #eee;
-    margin-top: 40px;
+    background-color: #e3ded0;
+    color: #222;
 }
